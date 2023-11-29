@@ -35,7 +35,7 @@ public class LoginPage {
 	
 	public AccountPage clickOnLoginButton() {
 		loginButton.click();
-		return new AccountPage(driver);
+		return new AccountPage(driver);  
 	}
 	
 	public AccountPage navigateToAccountPage(String emailText, String passwordText) {

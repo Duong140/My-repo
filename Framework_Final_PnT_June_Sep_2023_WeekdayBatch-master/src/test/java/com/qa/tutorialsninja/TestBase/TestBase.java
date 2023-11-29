@@ -43,7 +43,7 @@ public class TestBase {
 		}else if(browserName.equals("firefox")) {
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
-		}else if(browserName.equals("edge")){
+		}else if (browserName.equals("edge")){
 			driver = new EdgeDriver();
 			driver.manage().window().maximize();
 		}
