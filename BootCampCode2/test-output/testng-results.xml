@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-09T18:34:19 EST" name="Suite" finished-at="2023-12-09T18:34:49 EST" duration-ms="30292">
+    <groups>
+    </groups>
+    <test started-at="2023-12-09T18:34:19 EST" name="Test" finished-at="2023-12-09T18:34:49 EST" duration-ms="30292">
+      <class name="com.Framework.SearchTest">
+        <test-method is-config="true" signature="preSearch()[pri:0, instance:com.Framework.SearchTest@8458f04]" started-at="2023-12-09T18:34:27 EST" name="preSearch" finished-at="2023-12-09T18:34:31 EST" duration-ms="3837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSearch -->
+        <test-method signature="searchAndVerify()[pri:1, instance:com.Framework.SearchTest@8458f04]" started-at="2023-12-09T18:34:31 EST" name="searchAndVerify" finished-at="2023-12-09T18:34:31 EST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndVerify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Framework.SearchTest@8458f04]" started-at="2023-12-09T18:34:31 EST" name="tearDown" finished-at="2023-12-09T18:34:33 EST" duration-ms="2153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Framework.SearchTest -->
+      <class name="com.Framework.RegisterTest">
+        <test-method is-config="true" signature="preRegister()[pri:0, instance:com.Framework.RegisterTest@173ed316]" started-at="2023-12-09T18:34:19 EST" name="preRegister" finished-at="2023-12-09T18:34:23 EST" duration-ms="4531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRegister -->
+        <test-method signature="registerTest()[pri:0, instance:com.Framework.RegisterTest@173ed316]" started-at="2023-12-09T18:34:23 EST" name="registerTest" finished-at="2023-12-09T18:34:25 EST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Framework.RegisterTest@173ed316]" started-at="2023-12-09T18:34:25 EST" name="tearDown" finished-at="2023-12-09T18:34:27 EST" duration-ms="2194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Framework.RegisterTest -->
+      <class name="com.Framework.LogInTest">
+        <test-method is-config="true" signature="preLogIn()[pri:0, instance:com.Framework.LogInTest@48075da3]" started-at="2023-12-09T18:34:33 EST" name="preLogIn" finished-at="2023-12-09T18:34:38 EST" duration-ms="4185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preLogIn -->
+        <test-method signature="LogInWithValidCredentials()[pri:1, instance:com.Framework.LogInTest@48075da3]" started-at="2023-12-09T18:34:38 EST" name="LogInWithValidCredentials" finished-at="2023-12-09T18:34:39 EST" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInWithValidCredentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Framework.LogInTest@48075da3]" started-at="2023-12-09T18:34:39 EST" name="TearDown" finished-at="2023-12-09T18:34:41 EST" duration-ms="2154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Framework.LogInTest -->
+      <class name="com.Framework.AddToCartTest">
+        <test-method is-config="true" signature="preSearchProduct()[pri:0, instance:com.Framework.AddToCartTest@68c9133c]" started-at="2023-12-09T18:34:41 EST" name="preSearchProduct" finished-at="2023-12-09T18:34:45 EST" duration-ms="3810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSearchProduct -->
+        <test-method signature="productInCartVerifcation()[pri:1, instance:com.Framework.AddToCartTest@68c9133c]" started-at="2023-12-09T18:34:45 EST" name="productInCartVerifcation" finished-at="2023-12-09T18:34:47 EST" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInCartVerifcation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Framework.AddToCartTest@68c9133c]" started-at="2023-12-09T18:34:47 EST" name="TearDown" finished-at="2023-12-09T18:34:49 EST" duration-ms="2132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Framework.AddToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

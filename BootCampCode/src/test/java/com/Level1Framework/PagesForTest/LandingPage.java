@@ -46,9 +46,9 @@ public class LandingPage {
 		searchBox.sendKeys(validProductText);
 	}
 	
-	public SearchPage clickOnSearchButton() {
+	public void clickOnSearchButton() {
 		searchButton.click();
-		return new SearchPage(driver);
+		
 	}
 	
 	public SearchPage navigateToSearchPage(String validProductText) {

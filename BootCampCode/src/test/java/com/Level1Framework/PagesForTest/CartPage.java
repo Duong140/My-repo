@@ -12,6 +12,8 @@ public class CartPage {
 	@FindBy(linkText = "iPhone")
 	private WebElement validProduct;
 	
+	
+	
 	public CartPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -21,5 +23,7 @@ public class CartPage {
 		boolean displayStatus = validProduct.isDisplayed();
 		return displayStatus;
 	}
+	
+	
 
 }
