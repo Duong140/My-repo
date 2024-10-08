@@ -22,8 +22,6 @@ public class arrays {
 		}
 	}
 
-		reverse_string res = new reverse_string();
-		res.test_02();
 		
 
 }
